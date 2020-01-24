@@ -4,6 +4,12 @@
 
   .intro {
 
+    .top-image{
+      img{
+        border-radius: 10px;
+      }
+    }
+
     h2 {
       padding: 15px;
     }
@@ -58,6 +64,11 @@
       }
 
       .btn {
+        .btn-button(@btn-bg-color, @wild-sand, 11rem)
+
+      }
+      .btn:hover{
+        .btnHover( @wild-sand, @btn-bg-color )
       }
     }
 

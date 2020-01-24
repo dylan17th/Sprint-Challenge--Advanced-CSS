@@ -5,3 +5,25 @@
     align-content: baseline;
     flex-wrap: wrap;
 }
+
+.aNavbar(){
+    text-decoration: none;
+    color:black;
+    font-size:1.8rem;
+}
+
+.btn-button(@backColor, @fontColor, @btnWidth){
+    background-color:@backColor;
+    color: @fontColor;
+    width: @btnWidth;
+    text-align:center;
+    padding:1.2rem;
+    font-size:1.7rem;
+    border-radius:10px;
+}
+
+.btnHover(@bRoundC, @fontC ){
+    background-color: @bRoundC;
+    color:@fontC;
+    border: black solid 1px;
+}
