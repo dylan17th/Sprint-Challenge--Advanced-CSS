@@ -1,1 +1,37 @@
 // Navigation code here
+.relative{
+
+.navigation{
+    .displayflexcenter();
+    background-color:@sea-shell;
+    margin-top: 2rem; 
+
+    .nav{
+        padding:2rem;
+        
+        a{
+            .aNavbar();
+            @media @phone{
+                font-size: 1.5rem;
+            }
+            
+        }//closes the a element 
+        a:hover{
+            color:@river-bend;
+        }//closes the hover a element
+    }//closes the nav class
+    .nav1{
+
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    padding: 1rem;
+    @media @phone{
+        font-size: 4rem;
+    }
+
+        
+
+    }//closes the nav1 class for the main header
+    }//closes navigation
+}//closes the relative class
