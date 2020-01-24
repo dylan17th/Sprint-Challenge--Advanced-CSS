@@ -19,13 +19,15 @@
 <body>
 
  <!-- navigation code here -->
-  <div class="navigation">
-    <div class="nav nav1"><h1 class="walker">SpaceWalkers</h1></div>
-    <div class="nav nav2"><a href="#">Home</a></div>
-    <div class="nav nav3"><a href="#">About Us</a></div>
-    <div class="nav nav4"><a href="#">Blog</a></div>
-    <div class="nav nav5"><a href="#">contact</a></div>
-    <div class="nav nav6"><a href="#">Sign In</a></div>
+  <div class='relative'>
+    <div class="navigation">
+      <div class="nav nav1"><h1 class="walker">SpaceWalkers</h1></div>
+      <div class="nav nav2"><a href="#">Home</a></div>
+      <div class="nav nav3"><a href="#">About Us</a></div>
+      <div class="nav nav4"><a href="#">Blog</a></div>
+      <div class="nav nav5"><a href="#">contact</a></div>
+      <div class="nav nav6"><a href="#">Sign In</a></div>
+    </div>
   </div>
   <div class="container home">
 
@@ -59,12 +61,21 @@
         <p>The Earth was small, light blue, and so touchingly alone, our home that must be defended like a holy relic. The Earth was absolutely round.</p>
       
         <p>Suddenly struck me that that tiny pea, pretty and blue, was the Earth. I put up my thumb and shut one eye, and my thumb blotted out the planet Earth.</p>
-      
+        <div class="form">
+          <div class="form1">
+            <form for="name">Full Name</form>
+            <input type="text" id="name" placeholder="Johnny Appleseed">
+          </div>
+          <div class="form1">
+            <form for="email">Email</form>
+            <input type="text" id="email" placeholder="example@example.com">
+          </div>
+        </div>
         <div class="btn">
           Sign Up
         </div>
       </div>
-      
+
       <div class="walk-img">
           <img src="img/space-walk.png" alt="Space walking astronaut">
       </div>

@@ -160,7 +160,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-.navigation {
+.relative .navigation {
   display: flex;
   justify-content: center;
   align-content: baseline;
@@ -168,30 +168,30 @@ p {
   background-color: #F1F1F1;
   margin-top: 2rem;
 }
-.navigation .nav {
+.relative .navigation .nav {
   padding: 2rem;
 }
-.navigation .nav a {
+.relative .navigation .nav a {
   text-decoration: none;
   color: black;
   font-size: 1.8rem;
 }
 @media (max-width: 500px) {
-  .navigation .nav a {
+  .relative .navigation .nav a {
     font-size: 1.5rem;
   }
 }
-.navigation .nav a:hover {
+.relative .navigation .nav a:hover {
   color: #454A59;
 }
-.navigation .nav1 {
+.relative .navigation .nav1 {
   width: 100%;
   text-align: center;
   font-size: 5rem;
   padding: 1rem;
 }
 @media (max-width: 500px) {
-  .navigation .nav1 {
+  .relative .navigation .nav1 {
     font-size: 4rem;
   }
 }
@@ -278,6 +278,41 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .form {
+  display: flex;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .form {
+    flex-wrap: wrap;
+  }
+}
+.home .walk .walk-text .form .form1 {
+  width: 30rem;
+  padding-bottom: 2rem;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .form .form1 {
+    width: 100%;
+  }
+}
+.home .walk .walk-text .form .form1 form {
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .form .form1 form {
+    font-size: 3rem;
+  }
+}
+.home .walk .walk-text .form .form1 input {
+  width: 15rem;
+  height: 3rem;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text .form .form1 input {
+    width: 100%;
+    height: 4rem;
+  }
+}
 .home .walk .walk-text .btn {
   background-color: #22283A;
   color: #F6F6F6;
@@ -286,12 +321,12 @@ footer {
   padding: 1.2rem;
   font-size: 1.7rem;
   border-radius: 10px;
+  margin-left: 10rem;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    margin-left: 0rem;
   }
 }
 .home .walk .walk-text .btn:hover {
