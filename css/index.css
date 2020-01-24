@@ -160,6 +160,31 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-content: baseline;
+  flex-wrap: wrap;
+  background-color: #F1F1F1;
+  margin-top: 2rem;
+}
+.navigation .nav {
+  padding: 2rem;
+}
+.navigation .nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+}
+.navigation .nav a:hover {
+  color: #454A59;
+}
+.navigation .nav1 {
+  width: 100%;
+  text-align: center;
+  font-size: 5rem;
+  padding: 1rem;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
