@@ -1,0 +1,20 @@
+
+1.What is the difference between an adaptive website and a fully responsive website?
+	
+Answer: The difference between the adaptive and responsive design is that responsive you create one version of the site that changes depending on the width of the screen. However, adaptive design requires multiple versions of the same site and the server decides which version is rendered to the screen. 
+
+2.Describe what it means to be mobile first vs desktop first.
+
+Answer: When a website is considered mobile first it means that you it is being designing  on a mobile size screen. Then the developer will begin working outward using min-width to make it responsive on all screen. This also applies for desktop first website, it means you are designing the website initially at the size of a computer screen and using max-width media make it responsive for smaller size screens. 
+
+3.What does font-size: 62.5% in the html tag do for us when using rem units?
+
+Answer: Making the font-size 62.5% in the HTML tag sets the default page font to 10px. This provides easy math when calculating rems throughout the website.
+
+4.How would you describe preprocessing to someone new to CSS?
+
+Answer: I would describe preprocessing as a compiler for CSS that includes many benefits such as variables, mixins, parametric mixins and  a CSS nesting format. I would explain how it makes real life situation and changes in CSS easier. 
+
+5.What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Answer: My favorite concept of preprocessing is the ability to add variables and parametric mixins. I think nesting the elements is what gives me the  most trouble because i have to keep track of which element I am in and which curly brackets I’m inside. 
